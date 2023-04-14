@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* Medidas Absolutas
+            cm, mm, in, px (recomendação w3c), pt, pc
+
+            Medidas Relativas 
+            em (recomendação w3c), ex, rem, vw, vh, %.
+            16px = 1em (tamanho usual inicial)
+            */
+            font-size: 1em;
+            /*font-weight: bold;
+            font-style: italic;
+            text-decoration: underline;*/
+            /* lighter(100), normal(400), bold, bolder */
+        }
+        h1 {
+            /*font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; */
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad ducimus ea veniam in aperiam quisquam perferendis, corrupti sunt eaque consequatur aliquam quidem corporis aliquid sapiente fugit aut similique recusandae repellat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime harum ad omnis fugiat minima quo necessitatibus sint vel inventore veritatis neque, suscipit fugit nam amet accusamus asperiores dolor ea rem?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptas voluptatibus, autem porro sed inventore. Similique, autem eligendi placeat, assumenda voluptatibus repellat officia unde distinctio ut enim molestias deserunt laudantium.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam quasi consequatur laudantium nisi, illum soluta! Laboriosam, illo sequi? Necessitatibus obcaecati voluptates nobis pariatur eaque voluptas autem quam distinctio minus? Culpa?</p>
+
+</body>
+</html>
