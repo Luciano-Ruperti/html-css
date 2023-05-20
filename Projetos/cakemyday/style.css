@@ -50,11 +50,6 @@ nav > a:hover {
 main {
     background-color: #DBD89A;
     padding-bottom: 30px;
-    /*background-image: url(imagens/pexels-eiliv-aceron-10311446.jpg);
-    background-size: cover;
-    background-repeat: no-repeat; */
-    
-    
 }
 
 section > p {
@@ -62,26 +57,21 @@ section > p {
     font-family:'Sriracha', cursive;
     text-align: justify;
     padding-right: 20px;
-    text-indent: 60px;
+    text-indent: 50px;
 } 
 
 h2 {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
     font-family: 'Cherry Cream Soda', cursive;
     color: #663d30;
 }
 
 section {
-    width: 700px;
+    width: 600px;
     padding-left: 60px;
     padding-right: 40px;
-    display:inline-block;
-    
-}
-
-picture {
-    padding-left: 100px;
+    display: inline-block;
 }
 
 
